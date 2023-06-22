@@ -3,7 +3,7 @@
 geometry_msgs/Point uav_pos
 
 # compare result
-int result
+int32 result
 
 # Tension uav sum
 float64 tuav_sum_norm

@@ -16,7 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Tether1.msg"
   "msg/Tether2.msg"
   "msg/Tether3.msg"
-  "msg/Tether_compare.msg"
+  "msg/TetherCompare.msg"
   DEPENDENCIES geometry_msgs
 )
 
