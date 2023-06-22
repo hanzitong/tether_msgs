@@ -1,10 +1,16 @@
 
-# T_uav
-geometry_msgs/Vector3 t_uav
-
-# uav position
+# uav position (h or v in the future?)
 geometry_msgs/Point uav_pos
 
-# Catenary_number
+# catenary number
 float64 catenary_num
+
+# tension uav
+float64 tuav_norm
+geometry_msgs/Vector3 tuav_vec
+
+# tension winch
+float64 twich_norm
+geometry_msgs/Vector3 twinch_vec
+
 
